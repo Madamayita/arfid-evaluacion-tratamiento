@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía ARFID en Pediatría — Repositorio HTML</title>
+  <meta name="description" content="Guía práctica de ARFID en pediatría: DSM-5, clínica, evaluación, factores sensoriales, tratamiento y complicaciones.">
+  <style>
+:root { --bg:#0b1020; --fg:#e6e9ef; --muted:#9aa4b2; --card:#121a33; --accent:#38bdf8; }
+* { box-sizing:border-box; }
+html,body { margin:0; padding:0; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+.container { max-width: 980px; margin: 0 auto; padding: 2rem; }
+header.hero { text-align:center; padding:3rem 0 2rem; }
+h1 { font-size: clamp(1.8rem, 3.6vw, 3rem); margin:.2rem 0 .6rem; }
+small.kicker { color:var(--muted); letter-spacing:.08em; text-transform:uppercase; }
+.card { background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:20px; padding:1.2rem; box-shadow:0 10px 30px rgba(0,0,0,.28); }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+.toc { display:grid; gap:.5rem; margin-top:.75rem; }
+.toc a { display:block; padding:.55rem .8rem; border-radius:12px; border:1px solid rgba(255,255,255,.08); background:rgba(255,255,255,.03); }
+section { margin:2rem 0; }
+h2 { margin:1.2rem 0 .4rem; font-size:1.45rem; }
+.buttonbar { display:flex; gap:.8rem; justify-content:center; flex-wrap:wrap; margin-top:1rem; }
+.button { border:1px solid rgba(255,255,255,.15); padding:.6rem .95rem; border-radius:999px; background:rgba(255,255,255,.05); }
+.embed { width:100%; height:80vh; border:1px solid rgba(255,255,255,.1); border-radius:16px; }
+.note { color:var(--muted); font-size:.95rem; }
+footer { color:var(--muted); font-size:.9rem; padding:2rem 0; }
+code.inline { background: rgba(255,255,255,.06); padding:.15rem .4rem; border-radius:.5rem; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <small class="kicker">Repositorio HTML</small>
+      <h1>Guía sobre ARFID en Pediatría</h1>
+      <p>Este sitio envuelve el PDF original: <code class="inline">assets/pdf/guia_arfid_pediatria.pdf</code>.</p>
+      <div class="buttonbar">
+        <a class="button" href="assets/pdf/guia_arfid_pediatria.pdf" download>Descargar PDF</a>
+        <a class="button" href="#indice">Ir al índice</a>
+      </div>
+    </header>
+
+    <section id="indice" class="card">
+      <h2>Índice rápido</h2>
+      <div class="toc">
+        <a href="#clasificacion">1. TCA y clasificación DSM‑5</a>
+        <a href="#arfid">2. ARFID: clínica, dimensiones y comorbilidad</a>
+        <a href="#evaluacion">3. Evaluación nutricional y antropometría</a>
+        <a href="#sensorial">4. Factores sensoriales y desarrollo orofacial</a>
+        <a href="#tratamiento">5. Tratamiento (nutricional, psicológico, familiar, logopédico)</a>
+        <a href="#complicaciones">6. Complicaciones</a>
+        <a href="#pdf">Ver el PDF integrado</a>
+      </div>
+      <p class="note">Añade tus notas en cada sección. Evita copiar texto del PDF si el repositorio va a ser público sin autorización.</p>
+    </section>
+
+    <section id="clasificacion">
+      <h2>1. TCA y clasificación DSM‑5</h2>
+      <p>Panorama de los trastornos alimentarios y de la ingestión en DSM‑5; inclusión del ARFID y diferencias respecto a AN/BN y otros TCA.</p>
+    </section>
+
+    <section id="arfid">
+      <h2>2. ARFID: clínica, dimensiones y comorbilidad</h2>
+      <p>Presentación clínica típica en infancia, criterios diagnósticos, tres dimensiones psicopatológicas (poco interés, propiedades sensoriales, miedos específicos) y comorbilidades frecuentes.</p>
+    </section>
+
+    <section id="evaluacion">
+      <h2>3. Evaluación nutricional y antropometría</h2>
+      <p>Historia clínica detallada, valoración de ingesta, antropometría, exploración física, pruebas complementarias y uso de índices nutricionales.</p>
+    </section>
+
+    <section id="sensorial">
+      <h2>4. Factores sensoriales y desarrollo orofacial</h2>
+      <p>Exposición temprana a sabores/texturas, períodos sensibles y su relación con la aceptación de alimentos, y evaluación logopédica.</p>
+    </section>
+
+    <section id="tratamiento">
+      <h2>5. Tratamiento</h2>
+      <p>Objetivos de renutrición, soporte nutricional por niveles de atención, riesgos de realimentación, y abordaje conductual y familiar; rol de logopedia y trabajo escolar coordinado.</p>
+    </section>
+
+    <section id="complicaciones">
+      <h2>6. Complicaciones</h2>
+      <p>Impacto nutricional, médico y psicosocial; calidad de vida y dinámica familiar.</p>
+    </section>
+
+    <section id="pdf" class="card">
+      <h2>PDF integrado</h2>
+      <object class="embed" data="assets/pdf/guia_arfid_pediatria.pdf" type="application/pdf">
+        <p>Tu navegador no pudo mostrar el PDF. <a href="assets/pdf/guia_arfid_pediatria.pdf">Ábrelo o descárgalo aquí</a>.</p>
+      </object>
+      <p class="note">Comprueba permisos de uso antes de publicar este PDF en un repositorio público.</p>
+    </section>
+
+    <footer>
+      <p>© 2025-09-12 — Sitio estático listo para GitHub Pages. Edita <code class="inline">index.html</code> para ampliar contenido.</p>
+    </footer>
+  </div>
+</body>
+</html>
