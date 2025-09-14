@@ -1,9 +1,9 @@
-# Guía de Intervención: Alimentación y TEA — sitio HTML
+# Alimentación desordenada en TEA — Revisión EDR 2018 — sitio HTML
 Sitio estático para GitHub Pages que incluye el PDF original y secciones de resumen editables.
 
 ## Estructura
 - `index.html`: portada con índice y visor del PDF.
-- `assets/pdf/guia_intervencion_alimentacion_tea_autismo_madrid.pdf`: documento original.
+- `assets/pdf/alimentacion_desordenada_autismo_edr_2018.pdf`: documento original.
 - `.nojekyll`: evita el procesamiento de Jekyll en Pages.
 
 ## Publicación en GitHub Pages
